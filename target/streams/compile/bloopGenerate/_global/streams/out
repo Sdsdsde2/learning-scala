@@ -1,0 +1,4 @@
+[debug] [scala-hello-world] Classpath dependencies List()
+[debug] [scala-hello-world] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'scala-hello-world' to 'E:\PersonalProjects\learning-scala\scala-hello-world\.bloop\scala-hello-world.json'
+[success] Generated .bloop\scala-hello-world.json
