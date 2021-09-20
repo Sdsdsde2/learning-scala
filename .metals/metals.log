@@ -120,3 +120,5 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 [0m2021.09.20 16:43:13 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
 [0m2021.09.20 17:05:31 INFO  compiling scala-hello-world (1 scala source)[0m
 [0m2021.09.20 17:05:31 INFO  time: compiled scala-hello-world in 0.15s[0m
+[0m2021.09.20 17:08:12 INFO  compiling scala-hello-world (1 scala source)[0m
+[0m2021.09.20 17:08:12 INFO  time: compiled scala-hello-world in 0.84s[0m

@@ -11,7 +11,6 @@ object Main extends App {
 
   // In Slaca you can declair variables without declaring their type like so
   val s = "This is a string that I didn't have to say was a string"
-  val p = new Person("Shane")
 
   // If statements in Scala
   if (a == 2) {
