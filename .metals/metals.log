@@ -64,3 +64,59 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 [0m2021.09.19 12:29:45 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
 [0m2021.09.19 12:29:49 INFO  time: code lens generation in 3.6s[0m
 [0m2021.09.19 12:29:49 INFO  time: code lens generation in 3.59s[0m
+Sep 19, 2021 12:39:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+[0m2021.09.19 12:39:51 INFO  compiling scala-hello-world (1 scala source)[0m
+[0m2021.09.19 12:39:58 INFO  time: compiled scala-hello-world in 6.83s[0m
+[0m2021.09.19 13:03:52 INFO  shutting down Metals[0m
+[0m2021.09.19 13:03:52 INFO  Shut down connection with build server.[0m
+[0m2021.09.19 13:03:52 INFO  Shut down connection with build server.[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+No more data in the client stdin, exiting...
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.nio.channels.Channels$ReadableByteChannelImpl.read(Unknown Source)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:156)
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.09.20 16:43:05 INFO  Started: Metals version 0.10.7 in workspace 'E:\PersonalProjects\learning-scala\scala-hello-world' for client Visual Studio Code 1.60.1.[0m
+[0m2021.09.20 16:43:05 INFO  time: initialize in 0.37s[0m
+[0m2021.09.20 16:43:05 INFO  Attempting to connect to the build server...[0m
+[0m2021.09.20 16:43:06 WARN  no build target for: E:\PersonalProjects\learning-scala\scala-hello-world\src\main\scala\Main.scala[0m
+Starting the bsp launcher for bloop...
+[0m2021.09.20 16:43:05 INFO  skipping build import with status 'Installed'[0m
+Opening a bsp server connection with 'bsp --protocol tcp --port 13488'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:13488...
+The server is listening for incoming connections at tcp://127.0.0.1:13488...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.09.20 16:43:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Shane\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.09.20 16:43:06 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 26929'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:26929...
+The server is listening for incoming connections at tcp://127.0.0.1:26929...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.09.20 16:43:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Shane\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.09.20 16:43:07 INFO  time: Connected to build server in 1.05s[0m
+[0m2021.09.20 16:43:07 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.09.20 16:43:09 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.09.20 16:43:09 INFO  time: Imported build in 0.11s[0m
+[0m2021.09.20 16:43:10 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.09.20 16:43:11 INFO  time: code lens generation in 4.85s[0m
+[0m2021.09.20 16:43:11 INFO  time: code lens generation in 4.85s[0m
+[0m2021.09.20 16:43:12 INFO  time: indexed workspace in 3.14s[0m
+[0m2021.09.20 16:43:13 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.09.20 17:05:31 INFO  compiling scala-hello-world (1 scala source)[0m
+[0m2021.09.20 17:05:31 INFO  time: compiled scala-hello-world in 0.15s[0m
